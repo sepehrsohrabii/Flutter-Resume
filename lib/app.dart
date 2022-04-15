@@ -18,8 +18,8 @@ import 'my_skill_page.dart';
 const VERTICAL_PADDING_SIZE = 32.0;
 const PAGE_PADDING_SIZE = 18.0;
 
-const MAIN_COLOR = Color(0xff5A72EA);
-const SUB_COLOR = Color(0xffFF5A59);
+const MAIN_COLOR = Color(0XFF064635);
+const SUB_COLOR = Color(0XFFF0BB62);
 
 const MIN_TABLET_SIZE = 1080;
 

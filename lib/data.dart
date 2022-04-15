@@ -1,17 +1,17 @@
 class Data {
-  static const WEB_TITLE = "Nam - Mobile Developer";
-  static const NAME = "Nam Do";
-  static const PHONE_NUMBER = "+84766261102";
-  static const EMAIL = "thanhnamitit@gmail.com";
-  static const LOCATION = "Hanoi, Vietnam";
-  static const BIRTHDAY = "24 February, 1995";
+  static const WEB_TITLE = "Sepehr Sohrabi - Developer";
+  static const NAME = "Sepehr Sohrabi";
+  static const PHONE_NUMBER = "+9809369678828";
+  static const EMAIL = "sepehr0sohrabi@gmail.com";
+  static const LOCATION = "Rasht, Iran";
+  static const BIRTHDAY = "9 March, 1997";
 
-  static const AVATAR = "image/avatar.png";
+  static const AVATAR = "image/me.jpg";
 
-  static const FACEBOOK_URL = "https://www.facebook.com/thanhnamitit";
-  static const INSTAGRAM_URL = "https://www.instagram.com/thanhnamitit/";
-  static const GITHUB_URL = "https://github.com/thanhnamitit";
-  static const LINKEDIN_URL = "https://www.linkedin.com/in/đỗ-nam-b51829167/";
+  static const FACEBOOK_URL = "https://www.facebook.com/sepehrsohraabi/";
+  static const INSTAGRAM_URL = "https://www.instagram.com/sepehrsohrabi_/";
+  static const GITHUB_URL = "https://github.com/sepehrsohrabii";
+  static const LINKEDIN_URL = "https://www.linkedin.com/in/sepehrsohrabi/";
 
   static const HOME_SENTENCE =
       "The proper use of comments is to compensate for our failure to express ourself in code.";
@@ -27,7 +27,6 @@ class Data {
   static const MESSAGE_API =
       "https://us-central1-workout-e1b53.cloudfunctions.net/api/message";
 
-  static const CV_URL = "https://thanhnamitit.xyz/dothanhnam_cv.pdf";
-  static const CERTIFICATE_URL =
-      "https://www.credential.net/93f1c458-52b0-4add-af64-65aa8838174f?key=2bd401e6ea98d1a9dbc486a7907f9dd54511a7db6a0087b50684fbf0719940a6";
+  static const CV_URL = "https://sepehrsohrabi.dev/sepehrsohrabi_cv.pdf";
+  static const CERTIFICATE_URL = "";
 }

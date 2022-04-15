@@ -3,6 +3,7 @@ import 'package:cv/widget/menu_button.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:animated_text_kit/animated_text_kit.dart';
 
 import 'app.dart';
 
@@ -102,14 +103,32 @@ class Navigation extends StatelessWidget {
                 ],
               ),
               SizedBox(height: 4),
-              Text(
-                "Mobile developer",
-                style: TextStyle(
-                  color: Colors.white,
-                  fontWeight: FontWeight.w200,
-                  fontSize: 14,
+              AnimatedTextKit(animatedTexts: [
+                TypewriterAnimatedText(
+                  'Web Developer.',
+                  textStyle: const TextStyle(
+                    fontSize: 14.0,
+                    color: Color(0XFFF4EEA9),
+                  ),
+                  speed: const Duration(milliseconds: 100),
                 ),
-              ),
+                TypewriterAnimatedText(
+                  'APP Developer.',
+                  textStyle: const TextStyle(
+                    fontSize: 14.0,
+                    color: Color(0XFFF4EEA9),
+                  ),
+                  speed: const Duration(milliseconds: 100),
+                ),
+                TypewriterAnimatedText(
+                  'Python Developer.',
+                  textStyle: const TextStyle(
+                    fontSize: 14.0,
+                    color: Color(0XFFF4EEA9),
+                  ),
+                  speed: const Duration(milliseconds: 100),
+                ),
+              ]),
               SizedBox(height: 48),
               _buildNavigationOption("Home", Icons.home, onTap: () {
                 this.onTap(0);
