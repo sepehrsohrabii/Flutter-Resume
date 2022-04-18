@@ -14,8 +14,8 @@ class Data {
   static const LINKEDIN_URL = "https://www.linkedin.com/in/sepehrsohrabi/";
 
   static const HOME_SENTENCE =
-      "The proper use of comments is to compensate for our failure to express ourself in code.";
-  static const HOME_AUTHOR = "Robert C. Martin";
+      "I wish to CREATE something great and useful for all over the world.";
+  static const HOME_AUTHOR = "Wish me success";
 
   static const ABOUT_PAGE_INFO = {
     "Name": NAME,

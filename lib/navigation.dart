@@ -103,32 +103,35 @@ class Navigation extends StatelessWidget {
                 ],
               ),
               SizedBox(height: 4),
-              AnimatedTextKit(animatedTexts: [
-                TypewriterAnimatedText(
-                  'Web Developer.',
-                  textStyle: const TextStyle(
-                    fontSize: 14.0,
-                    color: Color(0XFFF4EEA9),
+              AnimatedTextKit(
+                animatedTexts: [
+                  TypewriterAnimatedText(
+                    'Web Developer.',
+                    textStyle: const TextStyle(
+                      fontSize: 14.0,
+                      color: Color(0XFFF4EEA9),
+                    ),
+                    speed: const Duration(milliseconds: 100),
                   ),
-                  speed: const Duration(milliseconds: 100),
-                ),
-                TypewriterAnimatedText(
-                  'APP Developer.',
-                  textStyle: const TextStyle(
-                    fontSize: 14.0,
-                    color: Color(0XFFF4EEA9),
+                  TypewriterAnimatedText(
+                    'APP Developer.',
+                    textStyle: const TextStyle(
+                      fontSize: 14.0,
+                      color: Color(0XFFF4EEA9),
+                    ),
+                    speed: const Duration(milliseconds: 100),
                   ),
-                  speed: const Duration(milliseconds: 100),
-                ),
-                TypewriterAnimatedText(
-                  'Python Developer.',
-                  textStyle: const TextStyle(
-                    fontSize: 14.0,
-                    color: Color(0XFFF4EEA9),
+                  TypewriterAnimatedText(
+                    'Python Developer.',
+                    textStyle: const TextStyle(
+                      fontSize: 14.0,
+                      color: Color(0XFFF4EEA9),
+                    ),
+                    speed: const Duration(milliseconds: 100),
                   ),
-                  speed: const Duration(milliseconds: 100),
-                ),
-              ]),
+                ],
+                totalRepeatCount: 20,
+              ),
               SizedBox(height: 48),
               _buildNavigationOption("Home", Icons.home, onTap: () {
                 this.onTap(0);

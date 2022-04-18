@@ -38,7 +38,7 @@ class App extends StatelessWidget {
       title: Data.WEB_TITLE,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        fontFamily: GoogleFonts.openSans().fontFamily,
+        fontFamily: GoogleFonts.ubuntu().fontFamily,
         accentColor: SUB_COLOR,
       ),
       home: MainPage(),
